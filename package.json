@@ -1,0 +1,29 @@
+{
+  "name": "swagger-viewer",
+  "version": "1.0.0",
+  "description": "Swagger json file to Swagger UI",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SkyLake13/swagger-viewer.git"
+  },
+  "keywords": [
+    "swagger",
+    "swagger-ui",
+    "swagger-viewer",
+    "jsontoui"
+  ],
+  "author": "Skylake13",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SkyLake13/swagger-viewer/issues"
+  },
+  "homepage": "https://github.com/SkyLake13/swagger-viewer#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "swagger-ui-express": "^4.1.6"
+  }
+}
