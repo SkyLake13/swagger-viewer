@@ -1,6 +1,10 @@
-const express = require('express');
+/* const express = require('express');
 const swaggerUI = require('swagger-ui-express');
-const swaggerDoc = require('./swagger.json');
+const swaggerDoc = require('./api.github.com.deref.json'); */
+
+import express from 'express';
+import swaggerUI from 'swagger-ui-express';
+import swaggerDoc from './api.github.com.deref.json';
 
 const port = 3000;
 

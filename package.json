@@ -2,9 +2,14 @@
   "name": "swagger-viewer",
   "version": "1.0.0",
   "description": "Swagger json file to Swagger UI",
+  "type": "module",
   "main": "index.js",
+  "exports": "./",
+  "engines": {
+
+  },
   "scripts": {
-    "start": "node index.js"
+    "start": "node --experimental-json-modules index.js"
   },
   "repository": {
     "type": "git",
